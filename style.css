@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    color: white;
+    background-color: #2D25A0;
+    width: 100%;
+    height: 695px;
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* top bar */
+.login-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 42px;
+    margin-left: 156px;
+    margin-right: 124px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 36px;
+}
+
+.login {
+    display: flex;
+    background-color: #E02C6D;
+    width: 123px;
+    height: 44px;
+    justify-content: center;
+}
+
+.login img {
+    width: 24px;
+    height: 24px;
+    padding-right: 8px;
+    margin-top: 10px;
+}
+
+.login a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+/* header 2nd section */
+.live {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    align-items: center;
+
+}
+
+.watch-live {
+    margin-left: 156px;
+    display: flex;
+    flex-direction: column;
+}
+
+.watch-live h1 {
+    width: 485px;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.kick-ball,
+.watch-live {
+    width: 50%;
+
+}
+
+.kick-ball img {
+    width: 556.01px;
+    height: 438px;
+    margin-top: 67px;
+    margin-right: 110px;
+}
+.kick-ball:hover{
+    
+background: url(1648334-world-cup-football-player-kick-off-football-kick-football-png-980_772_preview.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+margin-left: 100px;
+
+}
+
+.button {
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /* padding: 10px 24px; */
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px 10px 24px;
+}
+
+.fa-arrow-right {
+    width: 24px;
+    height: 24px;
+
+    padding-top: 13px;
+}
+
+/* players blog */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 27px;
+    padding-top: 70px;
+}
+
+.player {
+    width: 330px;
+    height: 474px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding-top: 15px;
+    align-items: center;
+
+}
+
+.player .pic img {
+    width: 300px;
+    height: 256px;
+
+}
+
+.player-info {
+    width: 300px;
+    height: 154px;
+    margin-top: 16px;
+}
+
+.player-title {
+    margin: 0px;
+    width: 300px;
+    height: 40px;
+    font-size: 28px;
+}
+
+.player-details {
+    margin-top: 10px;
+    color:
+        #6C6C6C;
+
+}
+
+/* match */
+
+.match {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 66px;
+    align-items: center;
+}
+
+.blogs {
+    margin-top: 224px;
+    margin-left: 182px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog {
+    width: 469px;
+    height: 241px;
+}
+
+.blog-title {
+    font-size: 48px;
+    margin: 0px;
+}
+
+.blog-about {
+    margin-top: 10px;
+    color:
+        #6C6C6C;
+}
+
+.match .match-pic img {
+    width: 567px;
+    height: 427px;
+    margin-top: 165px;
+}
+
+/* footer */
+
+.foot {
+    display: grid;
+    grid-template-rows: 3(3, 1fr);
+    grid-row-gap: 20px;
+    justify-content: center;
+    margin-top: 155px;
+    margin-left: 105px;
+}
+
+.logo img {
+    width: 483.87px;
+    height: 110px;
+    margin: 0px;
+}
+
+.icon {
+    width: 170px;
+    height: 32px;
+    margin-left: 167px;
+}
+
+.icon,
+i {
+    padding-right: 22px;
+}
+
+.copy {
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 127px;
+}
